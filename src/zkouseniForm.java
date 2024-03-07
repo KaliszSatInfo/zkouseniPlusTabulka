@@ -14,13 +14,6 @@ public class zkouseniForm extends JFrame{
     private JTextArea ta;
     private JPanel panel;
 
-    /**TableModel model = new AbstractTableModel() {
-        public int getColumnCount() {return 5; }
-        public int getRowCount() {return 5; }
-        public Object getValueAt(int row, int col) { return (row*col); }
-    };
-    JTable table = new JTable(model);*/
-
     public zkouseniForm(){
         setContentPane(panel);
         setSize(500,500);
